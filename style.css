@@ -21,7 +21,9 @@ button {
     background: none;
     border: none;;
 }
-
+.header__burger {
+    display: none;
+}
 
 .header {
     max-width: 1440px;
@@ -672,7 +674,7 @@ button {
 
 
 @media (max-width: 1440px) and (min-width: 1200px){
-    .header__burger__btn {
+    .header__burger {
         display: none;
     }
 }
@@ -686,7 +688,7 @@ button {
         display: none;
     }
 
-    .header__burger__btn {
+    .header__burger {
         display: none;
     }
 
